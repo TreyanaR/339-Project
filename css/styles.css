@@ -1,0 +1,16 @@
+nav li{
+    display: inline;
+    padding: 25px;
+    width: 25%;
+}
+/*https://www.w3schools.com/accessibility/accessibility_skip_links.php*/
+.skiptomain{
+    position: absolute;
+    left: -50%;
+    top: auto
+}
+.skiptomain:focus{
+    position: static;
+    width: auto;
+    height: auto
+}
