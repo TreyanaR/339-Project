@@ -1,4 +1,39 @@
 /* @media screen and (min-width:450px){ */
+    nav li{
+        display: inline;
+        padding: 25px;
+        width: 25%;
+    }
+    /*https://www.w3schools.com/accessibility/accessibility_skip_links.php*/
+    .skiptomain{
+        position: absolute;
+        left: -50%;
+        top: auto
+    }
+    .skiptomain:focus{
+        position: static;
+        width: auto;
+        height: auto
+    
+    }
+    a:link{
+        color:beige
+    }
+    a:visited{
+        color: rgb(38, 25, 25)
+    }
+    a:hover{
+        color: pink;
+    }
+    .currPage{
+        border: 2px dotted black;
+        padding: 5px;
+        border-radius: 8px;
+    }
+    body{
+        background-color: tan;
+    }
+    
     .gallery{
         display: grid;
         grid-template-columns: 20% 20%; 
