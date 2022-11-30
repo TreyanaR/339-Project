@@ -38,3 +38,14 @@ body{
     font-size:xx-large;
    
 }
+
+.tips{
+    line-height: 3.5;
+}
+footer{
+    position: absolute;
+    right: 12px;
+    bottom: 0;
+    color: white;
+    font-size: smaller;
+}

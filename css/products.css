@@ -54,6 +54,12 @@
         .gallery img{
             width: 100%;
         }
+        footer{
+            position: absolute;
+            right: 12px;
+            color: white;
+            font-size: smaller;
+        }
     
         /* @media screen and (min-width:600px){
             .gallery{ 

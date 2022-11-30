@@ -38,3 +38,10 @@ body{
     font-size:xx-large;
    
 }
+footer{
+    position: absolute;
+    right: 12px;
+    bottom: 0;
+    color: white;
+    font-size: smaller;
+}

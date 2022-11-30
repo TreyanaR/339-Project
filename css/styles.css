@@ -36,11 +36,10 @@ body{
     color: rgb(38, 25, 25);
     font-family: "Lucida Console", "Courier New", monospace;
     font-size:xx-large;
-    background-image:
+
     
 
 }
-    
 
 .hairstyles{
     display: grid;
@@ -55,3 +54,10 @@ body{
     .hairstyles img{
         width: 100%;
     }
+footer{
+    position: absolute;
+    right: 12px;
+    color: white;
+    font-size: smaller;
+}
+
