@@ -52,3 +52,12 @@ body{
     .hairstyles img{
         width: 100%;
     }
+
+    .header{
+        color: rgb(38, 25, 25);
+        font-family: "Brush Script MT", "Courier New", monospace;
+        font-size:xx-large;
+        background-color: pink;
+        text-align: center;
+    
+    }

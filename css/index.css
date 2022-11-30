@@ -58,6 +58,18 @@ img {
     margin-right: auto;
     width: 50%;
   }
+h1{
+        color: rgb(38, 25, 25);
+        font-family: "Brush Script MT", "Courier New", monospace;
+        font-size:xx-large;
+        background-color: pink;
+        text-align: center;
+        font-weight: bolder;
+    
+    }
+
+
+    
 /* .profile{
     display: grid;
     grid-template-columns: 50% 50% 50%; 
