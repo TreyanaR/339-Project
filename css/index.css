@@ -2,6 +2,7 @@ nav li{
     display: inline;
     padding: 25px;
     width: 25%;
+    font-size:xx-large;
 }
 /*https://www.w3schools.com/accessibility/accessibility_skip_links.php*/
 .skiptomain{
@@ -80,3 +81,23 @@ h1{
 .profile img{
     grid-column: auto/span 4;
 } */
+@media screen and (min-width:400px){
+    .gallery{ 
+    background-color: wheat;
+    grid-template-columns: 20% 20% 20%;
+    justify-content:center; 
+    align-items:stretch;
+}
+.gallery img:nth-child(4n){ 
+    grid-column: 1/-1;
+    
+}
+}
+@media screen and (min-width:750px){
+    .gallery{ 
+    background-color: bisque;
+    grid-template-columns: 20% 20% 20% 20%;
+    justify-content:center; 
+    align-items:stretch;
+    grid-column: 1/3}}
+
