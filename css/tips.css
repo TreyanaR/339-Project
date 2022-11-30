@@ -34,10 +34,12 @@ body{
 }
 .header{
     color: rgb(38, 25, 25);
-    font-family: "Lucida Console", "Courier New", monospace;
+    font-family: "Brush Script MT", "Courier New", monospace;
     font-size:xx-large;
-   
+    background-color: pink;
+    text-align: center;
 }
+
 
 .tips{
     line-height: 3.5;
