@@ -31,6 +31,7 @@ a:hover{
 }
 body{
     background-color: tan;
+   
 }
 .header{
     color: rgb(38, 25, 25);
@@ -38,6 +39,7 @@ body{
     font-size:xx-large;
    
 }
+
 footer{
     position: absolute;
     right: 12px;
@@ -46,3 +48,23 @@ footer{
     font-size: smaller;
 }
 
+img {
+
+    width: 500px;
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+/* .profile{
+    display: grid;
+    grid-template-columns: 50% 50% 50%; 
+    width: 50%; 
+    margin:auto;  
+    align-items:center;
+}
+.profile img{
+    grid-column: auto/span 4;
+} */
