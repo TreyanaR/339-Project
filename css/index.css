@@ -69,7 +69,10 @@ h1{
     
     }
 
+profilecaption{ 
+    display: block;
 
+}
     
 /* .profile{
     display: grid;
