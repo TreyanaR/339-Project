@@ -124,7 +124,7 @@ body{
                 flex-flow: row nowrap;
                 list-style: none;
                 font-size: x-large;
-                justify-content: right;
+                justify-content: space-around;
               
             }}
 
