@@ -60,5 +60,15 @@ li a{
               justify-content: space-around;
             
           }}
+  @media screen and (min-width:1200px){
+                nav ul{
+                    display: flex;
+                    flex-flow: row nowrap;
+                    list-style: none;
+                    font-size: x-large;
+                    justify-content: space-around;
+                  
+                }}
+    
 
 
