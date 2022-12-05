@@ -13,7 +13,11 @@ nav ul{
 li a{
  padding: 7px;
  margin-top: auto;
+<<<<<<< HEAD
  text-decoration: large;
+=======
+ text-decoration: none;
+>>>>>>> d613d781c00ccb3d0d693f444b568d05fef3d068
 }
 
 /*https://www.w3schools.com/accessibility/accessibility_skip_links.php*/
