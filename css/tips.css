@@ -1,8 +1,23 @@
-nav li{
-    display: inline;
-    padding: 25px;
-    width: 25%;
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
 }
+
+nav ul{
+    display: flex;
+    flex-flow: row nowrap;
+    list-style: none;
+    font-size: large;
+}
+li a{
+ padding: 7px;
+ margin-top: auto;
+ text-decoration: none;
+}
+
+
+
 /*https://www.w3schools.com/accessibility/accessibility_skip_links.php*/
 .skiptomain{
     position: absolute;
@@ -51,3 +66,25 @@ footer{
     color: white;
     font-size: smaller;
 }
+
+@media screen and (min-width:700px){
+    nav ul{
+        display: flex;
+        flex-flow: row nowrap;
+        list-style: none;
+        font-size: x-large;
+        justify-content: space-around;
+      
+    }}
+
+@media screen and (min-width:1200px){
+        
+
+     nav ul{
+                display: flex;
+                flex-flow: row nowrap;
+                list-style: none;
+                font-size: x-large;
+                justify-content: space-around;
+              
+            }}

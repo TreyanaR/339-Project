@@ -1,9 +1,21 @@
 /* @media screen and (min-width:450px){ */
-    nav li{
-        display: inline;
-        padding: 25px;
-        width: 25%;
-    }
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+}
+nav ul{
+    display: flex;
+    flex-flow: row nowrap;
+    list-style: none;
+    font-size: large;
+  
+}
+li a{
+ padding: 7px;
+ margin-top: auto;
+ text-decoration: none;
+}
     /*https://www.w3schools.com/accessibility/accessibility_skip_links.php*/
     .skiptomain{
         position: absolute;
@@ -197,10 +209,15 @@
         grid-template-columns: 20% 20% ;
         justify-content:center; 
         align-items:stretch;
-    }
         
     }
-    
+    nav ul{
+      display: flex;
+      flex-flow: row nowrap;
+      list-style: none;
+      font-size: large;
+    }
+  }
     @media screen and (min-width:900px){
         .gallery{ 
         background-color: bisque;
