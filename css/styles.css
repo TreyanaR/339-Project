@@ -3,10 +3,6 @@
     margin: 0;
     padding: 0
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> bcab519698fa0a662ea41995f825647cf25d8f91
 nav ul{
     display: flex;
     flex-flow: row nowrap;
@@ -17,11 +13,7 @@ nav ul{
 li a{
  padding: 7px;
  margin-top: auto;
-<<<<<<< HEAD
  text-decoration: large;
-=======
- text-decoration: none;
->>>>>>> bcab519698fa0a662ea41995f825647cf25d8f91
 }
 
 /*https://www.w3schools.com/accessibility/accessibility_skip_links.php*/
