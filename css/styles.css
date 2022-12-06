@@ -3,27 +3,19 @@
     margin: 0;
     padding: 0
 }
-a{
-    text-decoration: none;
+
+nav ul{
+    display: flex;
+    flex-flow: row nowrap;
+    list-style: none;
+    font-size: large;
+}
+li a{
+ padding: 7px;
+ margin-top: auto;
+ text-decoration: none;
 }
 
-.menu{
-    display: flex;
-    flex-wrap: wrap;
-}
-header nav{
-    padding: 0 10px;
-}
-header nav ul li{
-    display: inline-block;
-    margin-left: 40px;
-}
-header nav ul li a{
-    display: block;
-    padding: 10px 0;
-}
-header nav ul li a:hover, header nav ul li a:active{
-    color:pink}
 /*https://www.w3schools.com/accessibility/accessibility_skip_links.php*/
 .skiptomain{
     position: absolute;
@@ -61,17 +53,14 @@ body{
     display: grid;
     grid-template-columns: 20% 20% 20%; 
     grid-gap: 10px;
-    width: 90%; 
+    width: 70%; 
     margin: auto;  
     justify-content: space-around;  
     align-items: center;
     align-items: stretch;
     background-color: lavenderblush;
     justify-self: center;
-    }
-    .hairstyles img{
-        width: 100%;
-        height: auto;
+    height: auto;
     }
     
     #locs{
@@ -114,24 +103,41 @@ body{
     
     @media screen and (min-width:700px){
     
-        .hairstyles{
+       /* .hairstyles{
             display: grid;
             background-color: bisque;
             grid-template-columns: 1fr 1fr 1fr;
             gap: 15px;
-        }
-        .grid-item{
-            width: 100%;
-            display: block
-        }
-        .caption{
-            background-color: #fff;
-        }
+            justify-content:center; 
+            align-items:stretch;
+        }*/
+
+    .hairstyles{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-gap: 10px;
+    width: 100%; 
+    margin: auto;  
+    justify-content: space-around;  
+    align-items: center;
+    align-items: stretch;
+    background-color: tan;
+    justify-self: center;
+    height: auto;}
+
+
+    
+
+
+
+        
         #flat-twist{
             grid-column: 2;
             grid-row: 1;
         }
-        
+        #bantu-knots-2{
+            grid-area: 1/1/2/2;
+        }
         
         /*.hairstyles{ 
         background-color: bisque;
@@ -160,20 +166,14 @@ body{
         
 
 
-        
-    /*I know this is wrong, just copied for another view*/
-
     @media screen and (min-width:1200px){
         .hairstyles{ 
-            background-color: rgb(255, 254, 196);
-            grid-template-columns: 20% 20% 20% 20% 20% 20%;
+            background-color: tan;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
             justify-content:center; 
             align-items:stretch;
             grid-column: 1/3}
         
-            .hairstyles img{
-                grid-column: auto/span 2;
-            }
 
             nav ul{
                 display: flex;
@@ -183,6 +183,10 @@ body{
                 justify-content: space-around;
               
             }}
+            .caption p{
+                font-size: medium;
+            }
+        
 
 
     
