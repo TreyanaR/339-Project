@@ -3,17 +3,27 @@
     margin: 0;
     padding: 0
 }
-nav ul{
-    display: flex;
-    flex-flow: row nowrap;
-    list-style: none;
-    font-size: large;
-  
+a{
+    text-decoration: none;
 }
-li a{
- padding: 7px;
- margin-top: auto;
- text-decoration: none;
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+}
+header nav{
+    padding: 0 10px;
+}
+header nav ul li{
+    display: inline-block;
+    margin-left: 40px;
+}
+header nav ul li a{
+    display: block;
+    padding: 10px 0;
+
+}
+header nav ul li a:hover, header nav ul li a:active{
+    color:pink
 }
 
 /*https://www.w3schools.com/accessibility/accessibility_skip_links.php*/
