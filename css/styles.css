@@ -21,7 +21,6 @@ header nav ul li{
 header nav ul li a{
     display: block;
     padding: 10px 0;
-
 }
 header nav ul li a:hover, header nav ul li a:active{
     color:pink}
@@ -54,25 +53,29 @@ a:hover{
 body{
     background-color: tan;
 }
-.header{
-    color: rgb(38, 25, 25);
-    font-family: "Lucida Console", "Courier New", monospace;
-    font-size:xx-large;
-}
+
+
     
 
-.hairstyles{
+.hairstyles img{
     display: grid;
-    grid-template-columns: 20% 20%; 
+    grid-template-columns: 20% 20% 20%; 
+    grid-gap: 10px;
     width: 90%; 
-    margin:auto;  
-    justify-content:space-around;  
-    align-items:center;
-    align-items:stretch;
-    background-color: tan;
+    margin: auto;  
+    justify-content: space-around;  
+    align-items: center;
+    align-items: stretch;
+    background-color: lavenderblush;
+    justify-self: center;
     }
     .hairstyles img{
         width: 100%;
+        height: auto;
+    }
+    
+    #locs{
+        grid-column: 2;
     }
 
     .header{
@@ -81,9 +84,20 @@ body{
         font-size:xx-large;
         background-color: pink;
         text-align: center;
-    
     }
-    @media screen and (min-width:400px){
+    div p{
+        background-color: tan;
+        font-size: large;
+        font-family:'Monsterrat' ;
+        text-align: center;
+        line-height: 1.5em ;
+        height: 3em;
+        overflow: hidden;
+    }
+    img:hover{
+        box-shadow: gray;
+    }
+    /*@media screen and (min-width:400px){
         .hairstyles{ 
         background-color: lavenderblush;
         grid-template-columns: 20% 20% ;
@@ -95,20 +109,44 @@ body{
         }
 
         
-    }
+    }*/
         
     
     @media screen and (min-width:700px){
-        .hairstyles{ 
+    
+        .hairstyles{
+            display: grid;
+            background-color: bisque;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 15px;
+        }
+        .grid-item{
+            width: 100%;
+            display: block
+        }
+        .caption{
+            background-color: #fff;
+        }
+        #flat-twist{
+            grid-column: 2;
+            grid-row: 1;
+        }
+        
+        
+        /*.hairstyles{ 
         background-color: bisque;
         grid-template-columns: 20% 20% 20% 20%;
+        grid-row-gap: 20px;
         justify-content:center; 
-        align-items:stretch;
-        grid-column: 1/3}
+        align-items:stretch;}
     
         .hairstyles img{
-            grid-column: auto/span 2;
+            grid-column: span 2;
         }
+        #locs{
+            grid-area: 5/3/5/5;
+            justify-content: space-around;
+        }*/
         nav ul{
             display: flex;
             flex-flow: row nowrap;
@@ -116,7 +154,11 @@ body{
             font-size: x-large;
             justify-content: space-around;
           
-        }}
+        }
+        
+    }
+        
+
 
         
     /*I know this is wrong, just copied for another view*/
