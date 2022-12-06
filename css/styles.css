@@ -6,6 +6,7 @@
 a{
     text-decoration: none;
 }
+
 .menu{
     display: flex;
     flex-wrap: wrap;
@@ -23,9 +24,7 @@ header nav ul li a{
 
 }
 header nav ul li a:hover, header nav ul li a:active{
-    color:pink
-}
-
+    color:pink}
 /*https://www.w3schools.com/accessibility/accessibility_skip_links.php*/
 .skiptomain{
     position: absolute;
