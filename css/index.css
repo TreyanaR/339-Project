@@ -137,3 +137,11 @@ button:hover span{
 button:hover{
     border:none;
 }
+footer{
+    position: absolute;
+    right: 12px;
+    bottom: 0;
+    color: tan;
+    font-size: smaller;
+    background-color: antiquewhite;
+}

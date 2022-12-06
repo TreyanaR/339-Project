@@ -1,4 +1,89 @@
+/* Navigation Bar */
 *{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.skiptomain{
+    position: absolute;
+    left: -50%;
+    top: auto
+}
+.skiptomain:focus{
+    position: static;
+    width: auto;
+    height: auto
+
+}
+a:link{
+    color: black
+}
+a:visited{
+    color: rgb(38, 25, 25);
+}
+a:hover{
+    width: 20px;
+    height: 20px;
+    padding: 20px 0px;
+    text-align: center;
+    margin: 20px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    border: 2px solid black;
+    /* background: black; */
+    color: black;
+    cursor: pointer;
+    /* color: rgb(38, 25, 25);
+    background-color: transparent;
+    border: 5px solid black;
+    border-radius: 20x; */
+}
+.currPage{
+    border: 5px dotted black;
+    padding: 5px;
+    border-radius: 8px;
+    font-size: larger;
+}
+.navbar{
+    width: 100%;
+    margin: auto;
+    padding: 35px 0;
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+    font-size: large;
+    background-color: rgb(218, 174, 141);
+    border-radius: 20px;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 25px;
+}
+
+.navbar ul li{
+    text-decoration: none;
+    color: white;
+    opacity: 100%;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    bottom:-10px;
+    transition: 0.6s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+
+
+
+/* *{
     box-sizing: border-box;
     margin: 0;
     padding: 0
@@ -54,7 +139,7 @@ body{
     font-size:xx-large;
     background-color: pink;
     text-align: center;
-}
+} */
 
 
 .tips{
