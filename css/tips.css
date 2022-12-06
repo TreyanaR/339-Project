@@ -30,20 +30,20 @@ a:hover{
     border-radius: 10px;
     font-weight: bold;
     border: 2px solid black;
-    /* background: black; */
+     /* background: black; */
     color: black;
     cursor: pointer;
-    /* color: rgb(38, 25, 25);
+    color: rgb(38, 25, 25);
     background-color: transparent;
     border: 5px solid black;
-    border-radius: 20x; */
+    border-radius: 20x; 
 }
-.currPage{
-    border: 5px dotted black;
+ .currPage{
+    border: 6px dotted black;
     padding: 5px;
     border-radius: 8px;
-    font-size: larger;
-}
+    font-size: larger; }
+
 .navbar{
     width: 100%;
     margin: auto;
@@ -80,10 +80,7 @@ a:hover{
 .navbar ul li:hover::after{
     width: 100%;
 }
-
-
-
-/* *{
+/* 
     box-sizing: border-box;
     margin: 0;
     padding: 0
@@ -103,7 +100,7 @@ li a{
 
 
 
-/*https://www.w3schools.com/accessibility/accessibility_skip_links.php*/
+
 .skiptomain{
     position: absolute;
     left: -50%;
@@ -139,8 +136,7 @@ body{
     font-size:xx-large;
     background-color: pink;
     text-align: center;
-} */
-
+} 
 
 .tips{
     line-height: 3.5;
@@ -174,18 +170,4 @@ footer {
         color: white;
         font-size: smaller;
     }
-
-
-
-@media screen and (min-width:1200px){
-        
-
-     nav ul{
-                display: flex;
-                flex-flow: row nowrap;
-                list-style: none;
-                font-size: x-large;
-                justify-content: space-around;
-
-              
-            }}
+ */
