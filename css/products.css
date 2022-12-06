@@ -51,6 +51,17 @@ li a{
         font-size:xx-large;
         background-color: pink;
         text-align: center;}
+    footer{
+            position: relative;
+        }
+    footer p{
+            position: absolute;
+            bottom:0;
+            right: 0;
+            padding: 8px;
+            font-size: small;
+            color: white;
+        }
   @media screen and (min-width:700px){
           nav ul{
               display: flex;

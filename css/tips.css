@@ -46,6 +46,7 @@ a:hover{
 }
 body{
     background-color: tan;
+    position: relative;
 }
 .header{
     color: rgb(38, 25, 25);
@@ -58,14 +59,18 @@ body{
 
 .tips{
     line-height: 3.5;
+    font-size: large;
 }
-footer{
+
+footer {
     position: absolute;
-    right: 12px;
-    bottom: 0;
+    bottom:0;
+    right: 0;
+    padding: 8px;
+    font-size: small;
     color: white;
-    font-size: smaller;
 }
+
 
 @media screen and (min-width:700px){
     nav ul{
@@ -75,7 +80,17 @@ footer{
         font-size: x-large;
         justify-content: space-around;
       
-    }}
+    }
+    }
+    footer{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        color: white;
+        font-size: smaller;
+    }
+
+
 
 @media screen and (min-width:1200px){
         
@@ -86,5 +101,6 @@ footer{
                 list-style: none;
                 font-size: x-large;
                 justify-content: space-around;
+
               
             }}
