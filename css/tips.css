@@ -131,6 +131,17 @@ body{
     width: inherit;
     height: 100%;
 }
+footer{
+    position: relative;
+}
+footer p{
+    position: absolute;
+    bottom:0;
+    right: 0;
+    padding: 8px;
+    font-size: xx-small;
+    color: white;
+}
 
 @media screen and (min-width:700px){
     .flip-card {
