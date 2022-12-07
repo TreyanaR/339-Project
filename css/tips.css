@@ -140,7 +140,7 @@ footer p{
     right: 0;
     padding: 8px;
     font-size: xx-small;
-    color: white;
+    color: black;
 }
 
 @media screen and (min-width:700px){
