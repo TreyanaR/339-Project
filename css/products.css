@@ -46,13 +46,14 @@ a:hover{
 .navbar{
     width: auto;
     margin: auto;
-    padding: 5px 0;
+    padding: 10px 0;
     display:flex;
     align-items:center;
     justify-content: space-around;
-    font-size: 50%;
+    font-size: 8px;
     background-color: rgb(218, 174, 141);
     border-radius: 20px;
+    text-align: center;
 }
 
 
