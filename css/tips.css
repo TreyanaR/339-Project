@@ -33,10 +33,10 @@ a:hover{
      /* background: black; */
     color: black;
     cursor: pointer;
-    color: rgb(38, 25, 25);
+    /*color: rgb(38, 25, 25);
     background-color: transparent;
     border: 5px solid black;
-    border-radius: 20x; 
+    border-radius: 20x;*/
 }
  .currPage{
     border: 6px dotted black;
@@ -53,20 +53,16 @@ a:hover{
     justify-content: space-around;
     font-size: large;
     background-color: rgb(218, 174, 141);
-    border-radius: 20px;
 }
 .navbar ul li{
     list-style: none;
     display: inline-block;
     margin: 0 25px;
-}
-
-.navbar ul li{
-    text-decoration: none;
-    color: white;
     opacity: 100%;
     text-transform: uppercase;
 }
+
+
 .navbar ul li::after{
     content: '';
     height: 3px;
@@ -80,6 +76,19 @@ a:hover{
 .navbar ul li:hover::after{
     width: 100%;
 }
+ol li{
+    display: list-item;
+    list-style-position: inside;
+}
+h1{
+    background-color: pink;
+    text-align: center;
+}
+body{
+    background-color: tan;
+}
+
+
 /* 
     box-sizing: border-box;
     margin: 0;
@@ -152,22 +161,35 @@ footer {
     color: white;
 }
 
-
+*/
 @media screen and (min-width:700px){
-    nav ul{
-        display: flex;
-        flex-flow: row nowrap;
-        list-style: none;
-        font-size: x-large;
-        justify-content: space-around;
-      
-    }
-    }
-    footer{
+    .flip-card {
+        background-color: transparent;
+        width: 30%;
+        height: 11em;
+        border: 1px solid #f1f1f1;
+        /* perspective: 1000px; Remove this if you don't want the 3D effect */
+      }
+      .flip-card-inner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.8s;
+        transform-style: preserve-3d;
+      }
+      .flip-card:hover .flip-card-inner {
+        transform: rotateX(180deg)
+      }
+      .flip-card-front, .flip-card-back {
         position: absolute;
-        right: 0;
-        bottom: 0;
-        color: white;
-        font-size: smaller;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
     }
- */
+    .flip-card-back {
+        background-color: white;
+        color: black;
+        transform: rotateX(180deg);
+}}
+ 
