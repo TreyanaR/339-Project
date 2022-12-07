@@ -129,7 +129,7 @@ footer p{
         height: 3em;
         overflow: hidden;
     }
-    /*@media screen and (min-width:400px){
+    /*@media screen and (min-width:600px){
         .hairstyles{ 
         background-color: lavenderblush;
         grid-template-columns: 20% 20% ;
