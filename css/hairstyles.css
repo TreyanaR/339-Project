@@ -53,20 +53,16 @@ a:hover{
     justify-content: space-around;
     font-size: large;
     background-color: rgb(218, 174, 141);
-    border-radius: 20px;
 }
 .navbar ul li{
     list-style: none;
     display: inline-block;
     margin: 0 25px;
-}
-
-.navbar ul li{
-    text-decoration: none;
-    color: white;
     opacity: 100%;
     text-transform: uppercase;
 }
+
+
 .navbar ul li::after{
     content: '';
     height: 3px;
@@ -104,10 +100,12 @@ footer p{
     justify-content: space-around;  
     align-items: center;
     align-items: stretch;
-    background-color: lavenderblush;
     justify-self: center;
     height: auto;
     }
+.hairstyles{
+    background-color: tan;
+}
     
     #locs{
         grid-column: 2;
@@ -128,9 +126,6 @@ footer p{
         line-height: 1.5em ;
         height: 3em;
         overflow: hidden;
-    }
-    img:hover{
-        box-shadow: gray;
     }
     /*@media screen and (min-width:400px){
         .hairstyles{ 

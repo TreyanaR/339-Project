@@ -52,21 +52,17 @@ a:hover{
     align-items:center;
     justify-content: space-around;
     font-size: large;
-    background-color: rgb(218, 174, 141);
-    border-radius: 20px;
+    background-color:  rgb(218, 174, 141);
 }
 .navbar ul li{
     list-style: none;
     display: inline-block;
     margin: 0 25px;
-}
-
-.navbar ul li{
-    text-decoration: none;
-    color: white;
     opacity: 100%;
     text-transform: uppercase;
+
 }
+
 .navbar ul li::after{
     content: '';
     height: 3px;
@@ -80,6 +76,7 @@ a:hover{
 .navbar ul li:hover::after{
     width: 100%;
 }
+
 
 
 
